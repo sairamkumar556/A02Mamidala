@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<title>Salary Calculator</title>
+<body>
+<head>
+  <script src="sal.js" type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+
+<div id="wrapper">
+
+<header>
+		<nav>
+			<ul>
+        <li><a>Salary Calculator</a></li>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="salary.html">Emp Salary</a></li>
+        <li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+</header>
+
+
+<body>
+
+<header class="ccheader">
+    <h1>Employee Salary Calculation program</h1> 
+</header>
+
+<div id= "alligning">
+
+<form id="form1">
+
+<label for = "enterthename"> Enter the Name :</label><input type="text" size="20" id="enterthename"/><br /><p></p>
+<label for = "dob"> Date of Birth :</label><input type="text" size="20" id="dob" placeholder="(MM/DD/YYYY)" /><br /></b><p></p>
+<label for = "place"> Place :</label><input type="text" size="20" id="place"/><br /><p></p>
+<label for = "sal"> Basic Salary :</label><input type="text" size="20" id="sal"/><br /><p></p>
+
+<b>Enter details upto this field and click calculate</b ><br /><p></p>
+
+<label for = "da"> DA :</label><input type="text" size="20" id="da" readonly="true"/><br /><p></p>
+<label for = "hra"> HRA :</label><input type="text" size="20" id="hra" readonly="true"/><br /><p></p>
+<label for = "pd"> PD :</label><input type="text" size="20" id="pd" readonly="true"/><p></p>
+
+<label for = "gsal"> Gross Salary :</label><input type="text" size="20" id="gsal" readonly="true"/><p></p>
+
+<b>Deductions  :</b ><p></p>
+
+<label for = "tax"> TAX :</label><input type="text" size="20" id="tax" readonly="true"/><br /><p></p>
+<label for = "pf"> PF :</label><input type ="text" size="20" id="pf" readonly="true"/><br/><p></p>
+
+<label for = "ns"> Net Salary :</label><b><i></b></i><input type="text" size="20" id="ns" readonly="true"/> <br /></b><p></p>
+
+
+<input type="button" name="btn" value="Calculate" onclick="calc()"/><br /><p></p>
+<input type="reset" name="Btn2" value="Reset"/></p><p></p>
+
+</form>
+
+</div>
+
+<ul class="pagination">
+  <li><a href="home.html">Previous</a></li>
+  <li><a href="about.html">Next</a></li><br>
+</ul>
+<p></p>
+<div class="footer">Last updated on <strong>'September 22, 2016'</strong>.</div>
+<p></p>
+
+</body>
+</html>
